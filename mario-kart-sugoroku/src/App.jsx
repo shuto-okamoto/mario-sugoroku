@@ -14,6 +14,7 @@ import {
   SQUARE_TYPES,
   HAPPENING_EVENTS
 } from './gameData.js'
+import gameBoardImage from './assets/game_board_concept.png'
 import './App.css'
 
 // ゲームの状態
@@ -373,7 +374,7 @@ function App() {
             <CardContent className="space-y-6">
               <div className="text-center">
                 <img 
-                  src="/src/assets/game_board_concept.png" 
+                  src={gameBoardImage} 
                   alt="ゲーム盤" 
                   className="mx-auto rounded-lg shadow-lg max-w-full h-auto"
                 />
